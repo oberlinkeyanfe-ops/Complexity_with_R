@@ -1,4 +1,4 @@
-# Complexity with R
+# Sorting complexity in R
 
 Measuring the real running time of insertion sort and merge sort in R, using the [`atime`](https://github.com/tdhock/atime) package to benchmark them on inputs of increasing size.
 
@@ -22,7 +22,7 @@ source("Code.R")
 
 ## What I learned
 
-Counting instructions (see [Completely_comparaison](https://github.com/oberlinkeyanfe-ops/Completely_comparaison)) gives the theory. Measuring time with `atime` shows the same thing in practice: insertion sort follows a quadratic curve, merge sort follows n log n, and the gap widens quickly as the input grows.
+Counting instructions (see [sorting-complexity-python](https://github.com/oberlinkeyanfe-ops/sorting-complexity-python)) gives the theory. Measuring time with `atime` shows the same thing in practice: insertion sort follows a quadratic curve, merge sort follows n log n, and the gap widens quickly as the input grows.
 
 ---
 
